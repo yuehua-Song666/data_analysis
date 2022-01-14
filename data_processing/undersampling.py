@@ -24,7 +24,7 @@ for label,_ in counter.items():
 pyplot.legend()
 pyplot.show()
 
-'''
+
 undersample = NearMiss(version=1, n_neighbors=3)
 X, y = undersample.fit_resample(X, y)
 reCounter = Counter(y)
@@ -34,7 +34,7 @@ for label,_ in reCounter.items():
 pyplot.legend()
 pyplot.show()
 
-
+'''
 undersample = NearMiss(version=2, n_neighbors=3)
 X, y = undersample.fit_resample(X, y)
 reCounter = Counter(y)
@@ -44,7 +44,7 @@ for label,_ in reCounter.items():
 pyplot.legend()
 pyplot.show()
 
-'''
+
 undersample = NearMiss(version=3, n_neighbors=3)
 X, y = undersample.fit_resample(X, y)
 reCounter = Counter(y)
@@ -54,4 +54,4 @@ for label,_ in reCounter.items():
 pyplot.legend()
 pyplot.show()
 
-    
+'''  
