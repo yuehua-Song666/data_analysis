@@ -10,4 +10,8 @@
 				- Images:
 				- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/Imbalanced_data_examples.png) ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/NearMiss1.png)
 			- NearMiss-2 -- Select negative examples that are close to all the positive exsamples. (In the paper examples are selected based on their average distances to three farthest positive examples.)
+				- Images:
+				- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/Imbalanced_data_examples.png) ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/NearMiss2.png)
 			- NearMiss-3 -- Select a given number of the closest negative examples for each positive examples. This method guarantees every positive example is surrounded by some negative examples. (In this paper, they choose the negative examples whose average distances to the closest three positive examples are the farthest.) 
+				- Images:
+				- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/Imbalanced_data_examples.png) ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/NearMiss3.png)
