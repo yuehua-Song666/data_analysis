@@ -28,4 +28,4 @@
 		- An undersampling technique that seeks a subset of a collection of samples that results in no loss in model performance, referred to as a minimal consistent set.
 			- The focus of this algorithm is those examples in the minority class along the decision boundary between the two class, specifically, those majority examples around the minority class examples
 				- Images:
-				- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/condensed_nearest_neighbour.png)
+				- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/Imbalanced_data_examples.png) ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/condensed_nearest_neighbour.png)
