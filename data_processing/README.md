@@ -32,3 +32,7 @@
 				
 	- Select Examplse to delete
 		- Select examples from the majority class to delete, including the popular Tomek Links method and the Edited Nearest Neighbors rule.
+			- Tomek Links for Undersampling
+				- Find pairs of examples, one from each class; they together have the smallest Euclidean distance to each other in feature space.
+				- After delete the paris, we can get a clear boundary between classes
+					- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/tomek.png)
