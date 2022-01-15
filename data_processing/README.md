@@ -35,7 +35,9 @@
 			- Tomek Links for Undersampling
 				- Find pairs of examples, one from each class; they together have the smallest Euclidean distance to each other in feature space.
 				- After delete the paris, we can get a clear boundary between classes
+				- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/tomek.png)
 				- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/Imbalanced_data_examples.png) ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/tomek.png)
+				-  Distanges:
 				- Disadvantages:
 					- Although finding the ambiguous examples on the class boundary is useful. It is not a great undersampling technique.
 					- In practice, the Tomek Links need to combine with other methods, such as Condensed Nearest Neighbour Rule. (The choice to combine Tomek Links and CNN is natural, as Tomek Links can be said to remove borderline and noisy instances, while CNN removes redundant instances.)
