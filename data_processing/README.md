@@ -29,3 +29,6 @@
 			- The focus of this algorithm is those examples in the minority class along the decision boundary between the two class, specifically, those majority examples around the minority class examples
 				- Images:
 				- ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/Imbalanced_data_examples.png) ![](https://github.com/yuehua-Song666/data_analysis/blob/main/data_processing/img/condensed_nearest_neighbour.png)
+				
+	- Select Examplse to delete
+		- Select examples from the majority class to delete, including the popular Tomek Links method and the Edited Nearest Neighbors rule.
